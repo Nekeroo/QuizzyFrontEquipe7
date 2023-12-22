@@ -13,7 +13,7 @@ interface PingResponse {
   status: "OK" | "Partial" | "KO";
   details: {
     database: "OK" | "KO";
-  };
+  }; 
 }
 
 @Injectable({
